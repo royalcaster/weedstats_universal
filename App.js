@@ -22,19 +22,19 @@ import { storage } from "./src/data/FirebaseConfig";
 
 //Expo
 /* import { useFonts } from "expo-font"; */
-import * as NavigationBar from 'expo-navigation-bar'
+/* import * as NavigationBar from 'expo-navigation-bar'
  import * as Device from 'expo-device';
 import * as Notifications from 'expo-notifications';
-import Constants from 'expo-constants';
+import Constants from 'expo-constants'; */
 
 //Custom Components
-/* import CustomLoader from "./src/components/common/CustomLoader";
-import Login from './src/components/Login/Login'
-import Home from './src/components/Home/Home' */
-/* import { useBackHandler } from "@react-native-community/hooks"; */
-/* import Authenticator from "./src/components/common/Authenticator"; */
-/* 
-import MapView from 'react-native-maps'; */
+/* import CustomLoader from "./src/components/common/CustomLoader"; */
+/* import Login from './src/components/Login/Login' */
+import Home from './src/components/Home/Home'
+import { useBackHandler } from "@react-native-community/hooks";
+import Authenticator from "./src/components/common/Authenticator";
+
+import MapView from 'react-native-maps';
 
 LogBox.ignoreLogs(['AsyncStorage has been extracted from react-native core and will be removed in a future release.']);
 

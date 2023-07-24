@@ -7,24 +7,23 @@ import {
   StyleSheet,
   View,
   Image,
-  TouchableNativeFeedback,
   TouchableOpacity
 } from "react-native";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 //Custom Components
-import Stats from "./Stats/Stats";
-/* import Main from "./Main/Main";
-import Map from "./Map/Map";
-import Config from "./Config/Config";
-import Friends from "./Friends/Friends";
+/* import Stats from "./Stats/Stats"; */
+/* import Main from "./Main/Main"; */
+/* import Map from "./Map/Map"; */
+/* import Config from "./Config/Config"; */
+/* import Friends from "./Friends/Friends"; */
 import Intro from "../common/Intro";
 
 //Expo
-import * as NavigationBar from 'expo-navigation-bar'
+/* import * as NavigationBar from 'expo-navigation-bar' */
 
 //Third Party
-import FontAwesome from "react-native-vector-icons/FontAwesome";
+/* import FontAwesome from "react-native-vector-icons/FontAwesome";
 import Entypo from "react-native-vector-icons/Entypo";
 import { responsiveHeight } from "react-native-responsive-dimensions"
 import { ConfigContext } from "../../data/ConfigContext"; */
@@ -33,7 +32,6 @@ export default function Home({ sendPushNotification, onSetUser, onWriteComplete,
 
   //Navigation
   const Tab = createBottomTabNavigator();
-  const main_screen = <Main onWriteComplete={onWriteComplete} onSetUser={onSetUser} sendPushNotification={sendPushNotification} toggleNavbar={toggleNavbar}/>
 
   //Context
   const config = useContext(ConfigContext);

@@ -14,7 +14,7 @@ import { responsiveFontSize, responsiveHeight } from "react-native-responsive-di
 import { LanguageContext } from "../../data/LanguageContext";
 
 //Third Party
-import IonIcons from 'react-native-vector-icons/Ionicons'
+/* import IonIcons from 'react-native-vector-icons/Ionicons' */
 
 const Authenticator = ({ first, onSubmit, onCancel, onExit }) => {
 
